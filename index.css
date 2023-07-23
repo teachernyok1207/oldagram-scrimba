@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    height: 1767px;
+    background: #EDEDED;
+    display: block;
+    margin: 0 auto;
+    font-family: Source Sans 3;
+}
+
+/* Typography */
+#post-name{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0px auto;
+}
+
+#post-place{
+    color: #000;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.like-count{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 5px;
+}
+
+#commenter-name,
+#comment-msg{
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-left: 5px;
+    display: inline-block;
+}
+
+#comment-msg{
+    font-weight: 400;
+}
+
+/* Layout */
+
+header{
+    display: inline-flex;
+    height: 55px;
+    width: 375px;
+    padding: 16px 16px 50px 15px;
+    border-bottom: 1px solid #C6C6C6;
+    background: #FFF;
+    box-sizing: border-box;
+}
+
+section{
+    width: 375px;
+    background: #EDEDED;
+    box-sizing: border-box;
+}
+
+.post-container{
+    display: block;
+    margin: 0px auto 15px auto; 
+    background-color: white;
+    border-bottom: 1px solid #C6C6C6;
+}
+
+.display-flex{
+    display: flex;
+    padding: 10px 16px 5px 10px;
+}
+
+.container{
+    width: 375px;
+    margin: 0px auto;
+}
+
+.name-div{
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+/* Images */
+
+.img-logo{
+    width: 127px;
+    height: 33.02px;
+    fill: #000;
+    background-color: transparent;
+    margin: 0px auto;
+}
+
+.img-profile{
+    width: 34px;
+    height: 34px;
+    float: right;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+
+#img-post{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+#img-display{
+    width: 375px;
+    height: 375px;
+}
+
+.display-icons{
+    height: 22.135px;
+    padding: 5px 0px 0px 5px;
+    display: inline-block;
+    background-color: transparent;
+}
+
+.display-icons:hover,
+.display-icons:focus
+{
+    cursor: pointer;
+    height: 27px;
+}
